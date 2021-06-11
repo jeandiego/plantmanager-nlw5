@@ -1,10 +1,10 @@
 import { registerRootComponent } from 'expo';
 import React from 'react';
-import { View } from 'react-native';
+import Welcome from './screens/Welcome';
 
 class App extends React.Component {
   render() {
-    return <View />
+    return <Welcome />
   }
 }
 
